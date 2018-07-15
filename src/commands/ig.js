@@ -63,7 +63,7 @@ module.exports = {
 
             // Format output message
             const displayText = customText || interaction.user.username;
-            const formattedMessage = `[${displayText}](${kkInstagramLink})\n-# Mahiru Shiina Made with ❤️`;
+            const formattedMessage = `[${displayText}](${kkInstagramLink})`;
 
             // Update stats and log command
             reelManager.updateStats('ig', interaction.user.id);

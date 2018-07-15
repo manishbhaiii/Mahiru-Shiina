@@ -24,7 +24,7 @@ module.exports = {
             const kkInstagramLink = `https://kkinstagram.com/reels/${reelId}`;
 
             // Format message like /ig command
-            const formattedMessage = `[🎯 Random Reel](${kkInstagramLink})\n-# Mahiru Shiina Made with ❤️`;
+            const formattedMessage = `[🎯](${kkInstagramLink})`;
 
             // Update stats and log command
             reelManager.updateStats('random', interaction.user.id);
