@@ -1,0 +1,30 @@
+{
+  "name": "instafetch-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot to convert Instagram reels into viewable format",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "instagram",
+    "reels",
+    "downloader"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/text-to-speech": "^6.0.1",
+    "axios": "^1.9.0",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1",
+    "gtts": "^0.2.1",
+    "moment": "^2.29.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
