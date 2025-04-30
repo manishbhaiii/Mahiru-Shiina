@@ -1,9 +1,9 @@
 # 🎥 Instagram Reels Discord Bot
 
 <div align="center">
-  <img src="https://tenor.com/en-IN/view/mahiru-shiina-mahiru-shiina-gif-27613415" alt="Instagram Reels Bot Banner" width="600px">
+  <img src="https://static.myfigurecollection.net/upload/pictures/2024/03/14/3933240.jpeg" alt="Instagram Reels Bot Banner" width="600px">
 
-  [![Discord](https://img.shields.io/discord/1323567901344792660?color=7289da&logo=discord&logoColor=white)](https://discord.gg/hZf4j8GzzK)
+  [![Discord](https://img.shields.io/discord/1270616787809206364?color=7289da&logo=discord&logoColor=white)](https://discord.gg/hZf4j8GzzK)
   [![GitHub Stars](https://img.shields.io/github/stars/manishbhaiii/Mahiru-Shiina?style=social)](https://github.com/manishbhaiii/Mahiru-Shiina/stargazers)
 
   *Watch Instagram Reels directly in Discord! 🚀*
