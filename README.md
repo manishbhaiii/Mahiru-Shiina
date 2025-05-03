@@ -34,8 +34,7 @@
 - Node.js 16.9.0 or higher
 - Discord Bot Token
 - Discord Application with proper intents enabled
-  - Server Members Intent
-  - Message Content Intent
+
 
 ### Setup Steps
 
@@ -58,12 +57,7 @@
    WEBHOOK_URL=your_webhook_url_here
    ```
 
-4. **Deploy commands**
-   ```bash
-   node src/deploy-commands.js
-   ```
-
-5. **Start the bot**
+4. **Start the bot**
    ```bash
    node src/index.js
    ```
