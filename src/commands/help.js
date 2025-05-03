@@ -29,7 +29,7 @@ module.exports = {
                     },
                     {
                         name: '💡 fun fact',
-                        value: '✦➤ THIS BOT IS OPEN SOURCE BY [it\'s Manish](https://github.com/manish-dev-hub)\n✦➤ HELP US BY WATCHING ADS 🫠\n✦➤ [ADS LINK 1](https://github.com/manish-dev-hub)\n✦➤ [ADS LINK 2](https://github.com/manish-dev-hub)'
+                        value: '✦➤ THIS BOT IS OPEN SOURCE BY [it\'s Manish](https://github.com/manishbhaiii/Mahiru-Shiina)\n✦➤ HELP US BY WATCHING ADS 🫠\n✦➤ [ADS LINK 1](https://linkvertise.com/1175425/mahiru-shiina-discord-bot?o=sharing)\n✦➤ [ADS LINK 2](https://linkvertise.com/1175425/mahiru-shiina-discord-bot)'
                     }
                 )
                 .setImage('https://cdn.discordapp.com/attachments/1323567901344792660/1367160141207699529/8d0EZ9e.gif?ex=6813929a&is=6812411a&hm=a70f14acf2d77de2956d2041dbb00dd8b4326cdc3df464a8f642c3c7c4aafc60&')
