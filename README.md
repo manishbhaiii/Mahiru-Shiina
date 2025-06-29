@@ -93,7 +93,7 @@ The bot displays different statuses every 10 seconds:
 ## 📞 Contact
 
 - Discord: itz.manish
-- Website: [https://its-manish.vercel.app](https://roxy-selfbot.vercel.app/)
+- Website: [https://roxy-selfbot.vercel.app/](https://roxy-selfbot.vercel.app/)
 
 ---
 <div align="center">
