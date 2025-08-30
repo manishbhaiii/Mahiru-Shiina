@@ -36,6 +36,7 @@ async function startBot() {
         intents: [
             GatewayIntentBits.Guilds,
             GatewayIntentBits.GuildMessages,
+            GatewayIntentBits.MessageContent,
             GatewayIntentBits.DirectMessages
         ]
     });
@@ -90,4 +91,4 @@ async function startBot() {
         console.error('Failed to start the bot:', error);
         process.exit(1);
     }
-})(); 
+})();

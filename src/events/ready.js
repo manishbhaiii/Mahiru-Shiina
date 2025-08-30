@@ -1,8 +1,6 @@
 const { Events, ActivityType } = require('discord.js');
 const { DefaultWebSocketManagerOptions } = require('@discordjs/ws');
-
-// Initialize command counter for the day
-let dailyCommandUses = 0;
+const reelManager = require('../utils/reelManager');
 
 // Status types array
 const ACTIVITIES = [
@@ -33,7 +31,8 @@ module.exports = {
             if (currentActivityIndex === 2) {
                 statusText = `${client.guilds.cache.size} servers | ${client.users.cache.size} users`;
             } else if (currentActivityIndex === 3) {
-                statusText = `${dailyCommandUses} commands used`;
+                const stats = reelManager.getDailyStats();
+                statusText = `${stats.totalCommands} commands used`;
             }
 
             // Set the activity
@@ -60,29 +59,5 @@ module.exports = {
 
         // Set interval for updates
         setInterval(updateStatusAndPresence, 10000);
-
-        // Reset daily command counter at midnight
-        function resetDailyStats() {
-            const now = new Date();
-            const midnight = new Date(now);
-            midnight.setHours(24, 0, 0, 0);
-            const timeUntilMidnight = midnight - now;
-
-            setTimeout(() => {
-                dailyCommandUses = 0;
-                // Set up the next day's reset
-                setInterval(resetDailyStats, 24 * 60 * 60 * 1000);
-            }, timeUntilMidnight);
-        }
-
-        // Start the daily reset cycle
-        resetDailyStats();
-
-        // Track command usage
-        client.on('interactionCreate', (interaction) => {
-            if (interaction.isChatInputCommand()) {
-                dailyCommandUses++;
-            }
-        });
     },
 }; 

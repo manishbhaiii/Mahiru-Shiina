@@ -17,23 +17,33 @@ module.exports = {
                 .setDescription('➥Here are today\'s usage statistics:')
                 .addFields(
                     {
-                        name: '🔄 Reels Converted',
-                        value: `➥\`${stats.igUsage}\` reels converted using \`/ig\``,
+                        name: '🎬 Core Commands',
+                        value: `➥**IG Converter:** \`${stats.igUsage}\` uses\n➥**Random Reels:** \`${stats.randomUsage}\` uses`,
                         inline: true
                     },
                     {
-                        name: '🎲 Random Reels',
-                        value: `➥\`${stats.randomUsage}\` times \`/random\` used`,
+                        name: '🖼️ Image APIs',
+                        value: `➥**Waifu.pics:** \`${stats.waifupicUsage}\` uses\n➥**Nekobot:** \`${stats.nekobotUsage}\` uses\n➥**Nekos.best:** \`${stats.nekosBestUsage}\` uses`,
                         inline: true
                     },
                     {
-                        name: '👥 Unique Users',
-                        value: `➥\`${stats.uniqueUsers}\` different users today`,
+                        name: '🔞 NSFW APIs',
+                        value: `➥**PurrBot:** \`${stats.purrBotUsage}\` uses\n➥**Rule34:** \`${stats.rule34Usage}\` uses`,
                         inline: true
                     },
                     {
-                        name: '📈 Total Commands',
-                        value: `➥\`${stats.totalCommands}\` commands executed today`,
+                        name: '⚙️ Utility Commands',
+                        value: `➥**Help:** \`${stats.helpUsage}\` uses\n➥**Stats:** \`${stats.statsUsage}\` uses\n➥**Other:** \`${stats.otherUsage}\` uses`,
+                        inline: true
+                    },
+                    {
+                        name: '👥 User Stats',
+                        value: `➥**Unique Users:** \`${stats.uniqueUsers}\` today`,
+                        inline: true
+                    },
+                    {
+                        name: '📈 Total Usage',
+                        value: `➥**Total Commands:** \`${stats.totalCommands}\` today`,
                         inline: true
                     }
                 )

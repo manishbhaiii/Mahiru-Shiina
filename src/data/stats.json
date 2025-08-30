@@ -1,11 +1,19 @@
 {
-  "lastReset": "2025-04-30T06:31:32.570Z",
+  "lastReset": "2025-08-29T18:30:19.921Z",
   "dailyStats": {
-    "igUsage": 1,
-    "randomUsage": 7,
+    "igUsage": 0,
+    "randomUsage": 0,
+    "waifupicUsage": 0,
+    "nekobotUsage": 0,
+    "nekosBestUsage": 0,
+    "purrBotUsage": 0,
+    "rule34Usage": 9,
+    "helpUsage": 1,
+    "statsUsage": 0,
+    "otherUsage": 0,
     "uniqueUsers": [
-      "1085632219906842644"
+      "1123856956780728411"
     ],
-    "totalCommands": 33
+    "totalCommands": 10
   }
 }
